@@ -34,7 +34,7 @@ class Pessoa {
 
 }
 
-$pessoa1 = new Pessoa("Cauã", 16, "São Paulo", "19989734204");
+$pessoa1 = new Pessoa("enzo", 16, "São Paulo", "19989734204");
 
 echo "<h2>Perfil Inicial</h2>";
 $pessoa1->exibirPerfil();

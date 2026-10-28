@@ -23,7 +23,7 @@ $aluno2 = new Aluno("caua indin", 2.0);
 
 echo "<pre>";
 print_r($aluno1);
-echo "Status: " . $aluno1->getStatus . "\n\n";
+echo "Status: " . $aluno1->getStatus() . "\n\n";
 
 print_r($aluno2);
 echo "Status: " . $aluno2->getStatus() . "\n";
